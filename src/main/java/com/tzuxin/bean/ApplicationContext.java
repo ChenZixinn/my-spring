@@ -6,5 +6,5 @@ public interface ApplicationContext {
      * @param clazz 类型
      * @return 对象
      */
-    Object getBean(Class clazz);
+    Object getBean(Class<?> clazz);
 }
